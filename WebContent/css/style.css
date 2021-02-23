@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+#headermenu{
+	display: table;
+}
+.menu_item{
+	display:inline-flex;
+	padding-right: 10px;
+}
+
+.menu_item>a{
+	color: cornflowerBlue;
+	text-decoration: none;
+}
+.menu_item>a:visited{
+	color: indigo;
+}
+.menu_item>a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.menu_item>a:active{
+	color: red;
+}
+.pageheading{
+	color: darkblue;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 5px;
+}
+
+th {
+	background: darkblue;
+	color:cornsilk;
+	font-size: larger;
+}
+table.form{
+	border: 0;
+	padding: 5px;
+	width: 80%;
+}
+
+
+
+button {
+	padding: 5px;
+	border-radius: 5px;
+}
+button[type=submit] {
+	font-weight: bold;
+}
+button:hover{
+	background-color: white;
+	color: green;
+}
+input {
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: green;
+	height: 20px;
+}
+.message{
+	font-style: italic;
+	color: blue;
+}
+.error{
+	color: red;
+	margin: 5px;
+	font-style: italic;
+}
+
+	
